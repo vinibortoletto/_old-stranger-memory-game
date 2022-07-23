@@ -1,0 +1,16 @@
+.header__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header__itemContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.header__item--timer {
+  width: 100%;
+  text-align: center;
+}

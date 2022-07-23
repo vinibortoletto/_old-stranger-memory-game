@@ -1,0 +1,22 @@
+.cards {
+  /* height: 80vh; */
+  margin-top: 2rem;
+}
+
+.cards__list {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+
+  /* gap: 0.1rem; */
+
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.cards__item {
+  /* height: 15vh; */
+}
+
+.cards__image {
+  height: 13vh;
+}

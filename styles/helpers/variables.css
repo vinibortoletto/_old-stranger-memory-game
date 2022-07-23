@@ -1,0 +1,17 @@
+@import "https://fonts.googleapis.com/css2?family=VT323&display=swap";
+
+:root {
+  /* Colors */
+  --c-d-purple: #292348;
+  --c-m-purple: #544583;
+  --c-l-purple: #7167b4;
+  --c-l-blue: #7f9dd8;
+  --c-pink: #e53571;
+
+  /* Fonts Family */
+  --ff-default: "VT323", monospace;
+
+  /* Fonts Family */
+  --fs-d-default: 1.5rem;
+  --fs-m-default: 1.2rem;
+}

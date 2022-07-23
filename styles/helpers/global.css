@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  background-color: var(--c-d-purple);
+  color: var(--c-l-blue);
+  font-family: var(--ff-default);
+  font-size: var(--fs-m-default);
+  margin: 1rem 5% 0;
+}
+
+li {
+  list-style: none;
+}
