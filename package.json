@@ -4,7 +4,8 @@
   "description": "Um jogo da memória baseado na série Stranger Things.",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:styles": "npx stylelint '**/*.css'"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,8 @@
   "devDependencies": {
     "eslint": "^8.20.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.26.0"
+    "eslint-plugin-import": "^2.26.0",
+    "stylelint": "^14.9.1",
+    "stylelint-config-standard": "^26.0.0"
   }
 }
