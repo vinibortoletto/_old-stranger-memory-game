@@ -1,22 +1,28 @@
 .cards {
-  /* height: 80vh; */
   margin-top: 2rem;
 }
 
 .cards__list {
   display: grid;
-  align-items: center;
-  justify-items: center;
-
-  /* gap: 0.1rem; */
-
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 4rem);
+  justify-content: center;
+  gap: 0.5rem;
 }
 
 .cards__item {
-  /* height: 15vh; */
+  height: calc(80vh / 7);
 }
 
 .cards__image {
-  height: 13vh;
+  height: inherit;
+}
+
+@media screen and (orientation: landscape) {
+  .cards__list {
+    /* grid-template-columns: repeat(6, 4rem); */
+  }
+
+  .cards__item {
+    height: calc(80vh / 7);
+  }
 }
