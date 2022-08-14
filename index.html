@@ -8,19 +8,31 @@
     <title>Stranger Memory</title>
   </head>
   <body>
-    <header class="header">
-      <ul class="header__list">
-        <li class="header__item" id="tapes">Fitas: 0</li>
-        <li class="header__item">Acertos: 0/12</li>
-        <li class="header__item">Erros: 0/4</li>
-        <li class="header__item">Tempo: 00:00</li>
+    <header class="scoreboard">
+      <ul class="scoreboard__list">
+        <li class="scoreboard__item">Fitas: 
+          <span id="tapes">0</span>
+        </li>
+        
+        <li class="scoreboard__item">Acertos: 
+          <span id="hits">0</span>
+        /12</li>
+
+        <li class="scoreboard__item">Erros: 
+          <span id="errors">0</span>
+        /4</li>
+
+        <li class="scoreboard__item">Tempo: 
+          <span id="minutes">00</span>
+          :
+          <span id="seconds">00</span>
+        </li>
       </ul>
     </header>
 
     <main class="main"></main>
 
     <footer class="footer"></footer>
-    <script src="./scripts/header.js" type="module"></script>
-    <!-- <script src="./scripts/header.js"></script> -->
+    <script src="./script.js" type="module"></script>
   </body>
 </html>
